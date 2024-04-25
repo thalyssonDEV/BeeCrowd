@@ -1,2 +1,2 @@
 # BeeCrowd-Codes-
-Repositório referente às questões feitas na plataforma beecrowd!
+Repositório Referente às Questões Feitas na Plataforma Beecrowd!
