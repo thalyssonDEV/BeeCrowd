@@ -1,4 +1,4 @@
 # BeeCrowd-Codes-
-Repositório Referente às Questões Feitas na Plataforma Beecrowd!( Sendo Atualizado Constantemente )
+Repositório Referente às Questões Feitas na Plataforma Beecrowd!
 
-Linguagens - C++, Python
+Linguagens - C++, Python;
