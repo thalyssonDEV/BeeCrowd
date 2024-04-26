@@ -7,9 +7,7 @@ int main() {
     float Y;
     
     cin >> X;
- 
     cout << fixed << setprecision(3);
-    
     cin >> Y;
     
     float consumo = X/Y;
