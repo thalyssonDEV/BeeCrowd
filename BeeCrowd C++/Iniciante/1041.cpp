@@ -19,7 +19,7 @@ int main() {
             } else {
                 cout << "Q4" << endl;
             }
-        } else {
+        }else {
             if (y > 0) {
                 cout << "Q2" << endl;
             } else {
