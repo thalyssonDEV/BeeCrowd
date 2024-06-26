@@ -1,7 +1,7 @@
 def main():
-    N = int(input())
+    n = int(input())
 
-    qtd_peças = ((N+1)*(N+2)) / 2
+    qtd_peças = ((n+1)*(n+2)) / 2
 
     print(int(qtd_peças))
 
