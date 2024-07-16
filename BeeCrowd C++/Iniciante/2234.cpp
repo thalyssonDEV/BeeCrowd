@@ -2,7 +2,6 @@
 #include <iomanip>
 using namespace std;
 
-
 int main(){
     float consumo,qtd_habitantes;
     float media;
