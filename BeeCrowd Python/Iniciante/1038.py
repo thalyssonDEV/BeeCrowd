@@ -1,28 +1,17 @@
-def check_leds(digit):
-  led_mapping = {
-      '0': 6,
-      '1': 2,
-      '2': 5,
-      '3': 5,
-      '4': 4,
-      '5': 5,
-      '6': 6,
-      '7': 3,
-      '8': 7,
-      '9': 6
+def retornar_valor_item(codigo_item,quantidade):
+  tabela = {
+    1: 4,
+    2: 4.5,
+    3: 5,
+    4: 2,
+    5: 1.5
   }
-  return led_mapping.get(digit,0)
+  valor_final = tabela.get(codigo_item) * quantidade
+  return valor_final
 
 def main():
-  test_cases = int(input())
-
-  for _ in range(test_cases):
-      number = input()
-
-      total_leds = 0
-      for digit in number:
-          total_leds += check_leds(digit)
-
-      print(total_leds, "leds")
+  codigo_item,quantidade = map(int,input().split())
+  valor_item = retornar_valor_item(codigo_item,quantidade)
+  print(f"Total: R$ {valor_item:.2f}")
 
 main()
