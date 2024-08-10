@@ -1,9 +1,5 @@
 def main():
-    n1,n2,n3,n4 = input().split( )
-    n1 = float(n1)
-    n2 = float(n2)
-    n3 = float(n3)
-    n4 = float(n4)
+    n1,n2,n3,n4 = map(float,input().split())
 
     media = ((n1*2)+(n2*3)+(n3*4)+(n4*1)) / 10
     print(f"Media: {media:.1f}")
@@ -22,7 +18,7 @@ def main():
             print("Aluno aprovado.")
         else:
             print("Aluno reprovado.")
-        
+
         print(f"Media final: {media_final:.1f}")
-        
+
 main()
