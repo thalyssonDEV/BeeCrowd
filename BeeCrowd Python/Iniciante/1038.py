@@ -6,9 +6,8 @@ def retornar_valor_item(codigo_item,quantidade):
     4: 2,
     5: 1.5
   }
-  valor_final = tabela.get(codigo_item) * quantidade
-  return valor_final
-
+  return tabela.get(codigo_item) * quantidade
+  
 def main():
   codigo_item,quantidade = map(int,input().split())
   valor_item = retornar_valor_item(codigo_item,quantidade)
