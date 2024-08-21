@@ -7,7 +7,7 @@ int main() {
   cin >> hora_saida >> tempo_viagem >> fuso_horario;
 
   horario_chegada = hora_saida + tempo_viagem;
-  if (horario_chegada > 23) {
+  if (horario_chegada >= 23) {
     horario_chegada -= 24;
   }
 
