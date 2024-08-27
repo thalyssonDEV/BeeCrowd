@@ -22,7 +22,7 @@ Este repositório contém minhas soluções para os problemas da plataforma [Bee
 
 Você pode navegar pelas soluções diretamente através da interface do GitHub:
 
-- [Soluções em C++](https://github.com/thalyssonDEV/beecrowd-solutions/tree/main/C++)
+- [Soluções em C++](https://github.com/thalyssonDEV/BeeCrowd/tree/9532ed6f279865c97a0c75d46b7fb25df96367c0/BeeCrowd%20C%2B%2B)
 - [Soluções em Python](https://github.com/thalyssonDEV/beecrowd-solutions/tree/main/Python)
 
 Dentro de cada pasta de categoria, você encontrará os arquivos correspondentes aos problemas resolvidos
