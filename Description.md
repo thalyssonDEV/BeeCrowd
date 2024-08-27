@@ -1,3 +1,5 @@
+![image](https://hermes.dio.me/articles/cover/3f84021b-aa8b-45b2-9641-8d2fe240174e.jpg)
+
 # BeeCrowd Solutions
 
 ![Languages](https://img.shields.io/badge/Languages-C%2B%2B%20%7C%20Python-blue)
