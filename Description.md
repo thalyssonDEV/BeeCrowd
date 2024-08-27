@@ -7,9 +7,13 @@ Este repositório contém minhas soluções para os problemas da plataforma [Bee
 
 ## 📁 Estrutura do Repositório
 
+
 - **BeeCrowd C++/**: Contém soluções escritas em C++ organizadas por categorias de problemas.
+  
 - **BeeCrowd Python/**: Contém soluções escritas em Python organizadas pelas mesmas categorias.
+  
 - **Categorias**: As pastas dentro de cada linguagem representam as diferentes categorias de problemas no BeeCrowd, como *Iniciante*, *Ad-Hoc*, *Estruturas de Dados*, etc.
+  
 - **Arquivos**: Cada arquivo é nomeado de acordo com o número do problema no BeeCrowd, facilitando a referência e busca.
 
 ## 🔍 Navegação
