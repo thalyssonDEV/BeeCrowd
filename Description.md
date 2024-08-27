@@ -1,63 +1,36 @@
 # BeeCrowd Solutions
 
-![License](https://img.shields.io/github/license/yourusername/beecrowd-solutions)
-![Languages](https://img.shields.io/badge/languages-C%2B%2B%20%7C%20Python-blue)
+![Languages](https://img.shields.io/badge/Languages-C%2B%2B%20%7C%20Python-blue)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
 
-Este repositório contém soluções para os problemas da plataforma [BeeCrowd](https://www.beecrowd.com.br), resolvidas nas linguagens C++ e Python.
+Este repositório contém minhas soluções para os problemas da plataforma [BeeCrowd](https://www.beecrowd.com.br), implementadas em **C++** e **Python**. O objetivo é compartilhar meu progresso e aprendizado na resolução desses desafios de programação.
 
-## Estrutura do Repositório
+## 📁 Estrutura do Repositório
 
-O repositório está organizado da seguinte maneira:
+- **BeeCrowd C++/**: Contém soluções escritas em C++ organizadas por categorias de problemas.
+- **BeeCrowd Python/**: Contém soluções escritas em Python organizadas pelas mesmas categorias.
+- **Categorias**: As pastas dentro de cada linguagem representam as diferentes categorias de problemas no BeeCrowd, como *Iniciante*, *Ad-Hoc*, *Estruturas de Dados*, etc.
+- **Arquivos**: Cada arquivo é nomeado de acordo com o número do problema no BeeCrowd, facilitando a referência e busca.
 
-- **C++/**: Contém as soluções implementadas em C++.
-- **Python/**: Contém as soluções implementadas em Python.
-- Cada categoria (e.g., `Categoria_1`, `Categoria_2`) corresponde a uma classificação lógica dos problemas, como Iniciante, Ad-Hoc, Estruturas de Dados, etc.
+## 🔍 Navegação
 
-## Como Usar
+Você pode navegar pelas soluções diretamente através da interface do GitHub:
 
-1. Clone este repositório:
+- [Soluções em C++](https://github.com/thalyssonDEV/beecrowd-solutions/tree/main/C++)
+- [Soluções em Python](https://github.com/thalyssonDEV/beecrowd-solutions/tree/main/Python)
 
-    ```bash
-    git clone https://github.com/yourusername/beecrowd-solutions.git
-    ```
+Dentro de cada pasta de categoria, você encontrará os arquivos correspondentes aos problemas resolvidos
 
-2. Navegue até o diretório da linguagem desejada:
+## 📌 Observações
 
-    ```bash
-    cd C++/Categoria_1
-    ```
+- As soluções aqui apresentadas refletem minha abordagem pessoal aos problemas e podem não ser as únicas ou as mais eficientes possíveis.
+- Estou continuamente trabalhando para resolver mais problemas e melhorar as soluções existentes. O repositório será atualizado regularmente com novas soluções.
 
-3. Compile e execute o código:
+## 📫 Contato
 
-    Para C++:
-    ```bash
-    g++ nome_do_arquivo.cpp -o nome_do_executavel
-    ./nome_do_executavel
-    ```
-
-    Para Python:
-    ```bash
-    python3 nome_do_arquivo.py
-    ```
-
-## Contribuindo
-
-Contribuições são bem-vindas! Se você deseja adicionar uma nova solução ou melhorar uma existente:
-
-1. Faça um fork do projeto.
-2. Crie uma nova branch para sua funcionalidade/correção de bug: `git checkout -b minha-nova-funcionalidade`.
-3. Faça o commit das suas alterações: `git commit -am 'Adiciona nova funcionalidade'`.
-4. Envie para a branch original: `git push origin minha-nova-funcionalidade`.
-5. Crie uma Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## Contato
-
-Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+Se você tiver alguma dúvida ou quiser discutir sobre as soluções, entre em contato comigo:
 
 - **GitHub**: [thalyssonDEV](https://github.com/thalyssonDEV)
-- **E-mail**: contato.thalyssonde@gmail.com
+- **E-mail**: [contato.thalyssondel@gmail.com](mailto:contato.thalyssondel@gmail.com)
 
+---
