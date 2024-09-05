@@ -7,8 +7,9 @@ void showMenu(){
     printf("========== MENU ========\n");
     printf("[ 1 ] - ADICIONAR NÚMEROS\n");
     printf("[ 2 ] - REMOVER NÚMEROS\n");
-    
-    
+    printf("[ 3 ] - VER QUANTIDADE DE ITENS NO VETOR");
+
+
 }
 
 
@@ -22,25 +23,26 @@ void limparTela() {
 }
 
 
-void addNumbers(const std::list<int> &minhaLista, int &numerosToAdd) {
-    minhaLista.push_back(numerosToAdd);
+int quantity_items(std::list<int> &meuVetor) {
+    return meuVetor.size();
 }
 
-
-void removeNumbers() {
-    
+void addNumbers(std::list<int> &meuVetor, int numerosToAdd) {
+    meuVetor.push_back(numerosToAdd);
 }
 
+void removeNumbers(std::list<int> &meuVetor, int numerosToRemove) {
+    meuVetor.remove(numerosToRemove);
+}
 
-
-void showList(const std::list<int> &minhaLista) {
+void showList(const std::list<int> &meuVetor) {
     int count{};
 
     printf("\nLista Atual --> ");
     printf("[");
-    for (int chr : minhaLista) {
+    for (int chr : meuVetor) {
 
-        if (count < minhaLista.size() - 1) {
+        if (count < meuVetor.size() - 1) {
             printf("%d, ", chr);
         }else {
             printf("%d", chr);
@@ -52,7 +54,7 @@ void showList(const std::list<int> &minhaLista) {
 
 int main() {
     int tamanhoLista, elementos;
-    std::list<int> minhaLista{};
+    std::list<int> meuVetor{};
 
     printf("======= BEM VINDO AO MANIPULADOR DE LISTAS ========\n");
     printf("===================================================\n\n");
@@ -65,15 +67,14 @@ int main() {
     for (int i{}; i < tamanhoLista; i++) {
 
         scanf("%d", &elementos);
-        minhaLista.push_back(elementos);
+        meuVetor.push_back(elementos);
     }
-    
-    showList(minhaLista);
-    
     showMenu();
 
     int choice = 1;
     while (choice != 0) {
+        showList(meuVetor);
+
         printf("Digite a Funcionalidade:\n");
         scanf("%d", &choice);
 
@@ -85,25 +86,31 @@ int main() {
                 printf("Quantos Números Deseja Adicionar:\n");
                 scanf("%d", &qtdNumerosToAdd);
 
-                printf("Digite os Elementos Separados Por Espaço:\n");
+                printf("Digite os Números Separados Por Espaço:\n");
                 for (int i{}; i < qtdNumerosToAdd; i++) {
                     scanf("%d", &numerosToAdd);
-                    addNumbers(minhaLista, numerosToAdd);
+                    addNumbers(meuVetor, numerosToAdd);
                 }
-                showList(minhaLista);
                 break;
-                
+
             case 2:
                 int qtdNumerosToRemove, numerosToRemove;
-                
+
                 printf("Quantos Números Deseja Remover:\n");
                 scanf("%d", &qtdNumerosToRemove);
-                
-                printf("Digite os Elementos Separados Por Espaço:\n");
+
+                printf("Digite os Números Separados Por Espaço:\n");
                 for (int i{}; i < qtdNumerosToRemove; i++){
                     scanf("%d", &numerosToRemove);
+                    removeNumbers(meuVetor,numerosToRemove);
                 }
-                
+                break;
+
+            case 3:
+                int qtd_itens = quantity_items(meuVetor);
+
+                printf("QUANTIDADE DE ITENS --> %d\n", qtd_itens);
+
         }
     }
 }
